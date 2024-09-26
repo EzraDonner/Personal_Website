@@ -20,3 +20,7 @@ a {
 nav {
   color: white;
 }
+
+p:hover {
+  background-color: white;
+}

@@ -7,20 +7,22 @@ body {
   background-color: rgb(13, 13, 14);
   color: white;
   width: 1000px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   color: white;
+  font-weight: bold;
 }
 
 a {
-  color: goldenrod;
+  color: goldenrod !important;
 }
 
 nav {
   color: white;
 }
 
-p:hover {
+a:hover {
   background-color: white;
 }

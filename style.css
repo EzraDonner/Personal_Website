@@ -1,5 +1,5 @@
 img {
-  width: 35%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -7,20 +7,60 @@ body {
   background-color: rgb(13, 13, 14);
   color: white;
   width: 1000px;
+  margin: 0 auto !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
 }
 
 h1 {
   color: white;
+  font-weight: bold;
 }
 
 a {
-  color: goldenrod;
+  color: goldenrod !important;
 }
 
 nav {
   color: white;
 }
 
-p:hover {
+a:hover {
   background-color: white;
+}
+
+li:nth-child(even) {
+  color: goldenrod;
+}
+
+section {
+  height: 100;
+}
+
+heading {
+  height: calc(100% - 15px);
+}
+
+.flexParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.divFlex {
+  height: 200px;
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
 }
